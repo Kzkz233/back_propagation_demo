@@ -65,8 +65,3 @@ if __name__ == '__main__':
         for tmp_layer in my_net:
             x = tmp_layer.forward(x)
         print('y_pred:\t', x[0], '\ty_true:\t', y)
-
-
-
-
-
